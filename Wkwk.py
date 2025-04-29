@@ -11,7 +11,6 @@ musik = {
 # Tampilkan menu
 print("=== [PILIH MUSIK YANG INGIN DIPUTAR] ===")
 for key, (judul, _) in musik.items():
-    print(f"{key}. {judul}")
 
 pilihan = input("Masukkan pilihan (1/2): ").strip()
 
