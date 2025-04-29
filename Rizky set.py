@@ -20,12 +20,12 @@ def banner():
 {RESET}""")
 
 lirik = {
-    "lagu1.mp3": [
+    "oooo.mp3": [
         "Aku suka kamu...",
         "Tapi kamu tak tahu...",
         "Hatiku berbunga setiap lihat kamu..."
     ],
-    "lagu2.mp3": [
+    "kkk.mp3": [
         "Langit malam penuh bintang...",
         "Kuingat senyummu yang tenang...",
         "Kau cahaya di gelapku..."
@@ -44,15 +44,15 @@ def ketik(teks, delay=0.05, suara=False):
 def main():
     banner()
     ketik(f"{HIJAU}Pilih lagu yang ingin kamu dengar, Master Rimuru:{RESET}")
-    print("1. Lagu Romantis")
-    print("2. Lagu Malam")
+    print("1. kenapa aku nggak pernah marah sama kamu")
+    print("2. dengerin aja dulu")
     print("0. Keluar")
 
     pilihan = input(f"{MERAH}Masukkan pilihan: {RESET}")
     if pilihan == "1":
-        putar_lagu("lagu1.mp3")
+        putar_lagu("oooo.mp3")
     elif pilihan == "2":
-        putar_lagu("lagu2.mp3")
+        putar_lagu("kkk.mp3")
     elif pilihan == "0":
         ketik("Sampai jumpa, master!", suara=True)
         exit()
